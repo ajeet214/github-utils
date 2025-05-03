@@ -48,3 +48,28 @@ python delete_old_workflow_runs.py \
   --status completed \
   --limit 50
 ```
+## 📁 Project Structure
+```graphql
+github-utils/
+├── delete_old_workflow_runs.py
+├── delete_stale_branches.py           # (WIP)
+├── list_pull_requests.py              # (planned)
+├── auto_close_stale_issues.py         # (planned)
+├── utils/
+│   └── github_api.py                  # GitHub API helper functions
+├── requirements.txt
+└── README.md
+```
+## 🤝 Contributions Welcome
+Got an idea for a GitHub utility script? Found a bug or want to improve existing functionality?
+You're welcome to open issues or submit pull requests. Let’s make GitHub automation easier for everyone.
+
+## 📄 License
+This project is licensed under the MIT License.
+© Ajeet
+```yaml
+
+---
+
+Would you like help setting up a `utils/github_api.py` file with reusable API helpers like `get`, `delete`, and pagination handling?
+```
