@@ -22,11 +22,11 @@ This toolkit is designed for developers, maintainers, DevOps engineers, and open
 ```bash
 git clone https://github.com/<your-username>/github-utils.git
 cd github-utils
-
+```
 ## Install Dependencies
 ```bash
 pip install -r requirements.txt
-
+```
 ## Set Up Your GitHub Token
 Create a Personal Access Token (PAT) with appropriate scopes, such as:
 
@@ -37,7 +37,7 @@ Create a Personal Access Token (PAT) with appropriate scopes, such as:
 Store it securely using an environment variable:
 ```bash
 export GITHUB_TOKEN=your_token_here
-
+```
 ## 🧰 Example Scripts
 ### Delete Completed Workflow Runs
 ```python
@@ -47,3 +47,4 @@ python delete_old_workflow_runs.py \
   --workflow your-workflow.yml \
   --status completed \
   --limit 50
+```
